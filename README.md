@@ -74,3 +74,8 @@ En este programa, la "respuesta del agente" es lo que el servicio de clima en in
 Función Principal: La respuesta sirve como la fuente de datos que el programa necesita para ser útil. Contiene todos los detalles del clima.
 
 Función de Control: También sirve como indicador de éxito o fracaso. Si el servicio de internet no puede encontrar la ciudad o tiene un problema, la respuesta le indica al código que no hay datos útiles, lo que activa inmediatamente la lógica de decisión (if/else) para mostrar el error al usuario.
+
+<img width="802" height="783" alt="Screenshot 2025-12-13 at 9 22 57 PM" src="https://github.com/user-attachments/assets/b016088c-368e-4ca6-b735-840d3bb41c5c" />
+
+
+
