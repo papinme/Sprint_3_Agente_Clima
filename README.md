@@ -1,4 +1,19 @@
 # Sprint_3_Agente_Clima
+
+**🤖 HERRAMINETA DE ASISTENCIA(IA)**
+
+Este proyecto fue desarrollado utilizando la asistencia de **Copilot** para mejorar la eficiencia y la calidad del código.
+
+| Herramienta | Propósito |
+| :--- | :--- |
+| **GitHub Copilot** | Utilizado para la autocompletación de código, sugerencias de funciones, y para generar el bloque inicial de la lógica `if/else` en `src/main.py`. |
+
+## ⚙️ Tecnologías Utilizadas
+
+* **Lenguaje:** Python 3.x
+* **Librerías/Módulos:** `sys`, `weather_api` (Módulo local)
+* **Servicio Externo:** OpenWeatherMap API
+
 🤖 **DESCRIPCIÓN DEL AGENTE PROPUESTO**
 
 Es un agente de software que tiene la tarea de interactuar con el mundo exterior (internet) para obtener información específica (el pronóstico del tiempo) y presentarla al usuario.
