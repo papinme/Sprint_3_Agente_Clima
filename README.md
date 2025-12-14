@@ -8,7 +8,7 @@ Este proyecto fue desarrollado utilizando la asistencia de **Copilot** para mejo
 | :--- | :--- |
 | **GitHub Copilot** | Utilizado para la autocompletación de código, sugerencias de funciones, y para generar el bloque inicial de la lógica `if/else` en `src/main.py`. |
 
-## ⚙️ Tecnologías Utilizadas
+**⚙️ TECHNOLOGIAS UTILIZADAS**
 
 * **Lenguaje:** Python 3.x
 * **Librerías/Módulos:** `sys`, `weather_api` (Módulo local)
@@ -44,6 +44,7 @@ La lógica se basa en garantizar que la comunicación con el servicio externo ha
 
 
 **💻 FUNDAMENTOS DE PROGRAMACIÓN EN EL EJEMPLO**
+
 Este código es un programa simple en Python diseñado para obtener el clima de una ciudad que el usuario especifique, utilizando un servicio en internet (una "API" de clima).
 
 **Variables = Es una caja etiquetada donde puedes guardar diferentes tipos de información.**
