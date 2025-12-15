@@ -95,9 +95,34 @@ Función Principal: La respuesta sirve como la fuente de datos que el programa n
 
 Función de Control: También sirve como indicador de éxito o fracaso. Si el servicio de internet no puede encontrar la ciudad o tiene un problema, la respuesta le indica al código que no hay datos útiles, lo que activa inmediatamente la lógica de decisión (if/else) para mostrar el error al usuario.
 
+ **CODIGO COPILOT**
+
+ # openweather-python-app/src/main.py
+
+import sys
+
+from weather_api import WeatherAPI
+
+def main():
+    api_key = "63d8c67a9ce61f74a5d2be4c7a901310"
+    
+    weather_api = WeatherAPI(api_key)
+
+    city = input("Ingrese el nombre de la ciudad: ")
+    weather_data = weather_api.get_weather(city)
+
+    if weather_data:
+        print(f"Clima en {city}:")
+        print(f"Temperatura: {weather_data['main']['temp']}°C")
+        print(f"Descripción: {weather_data['weather'][0]['description']}")
+    else:
+        print("No se pudo obtener el clima para la ciudad ingresada.")
+
+if __name__ == "__main__":
+    main()
+
+
+
 <img width="1470" height="901" alt="Screenshot 2025-12-14 at 4 24 07 PM" src="https://github.com/user-attachments/assets/500ad311-9e5a-47de-8515-9fc757b86d2f" />
-
- 
-
 
 
